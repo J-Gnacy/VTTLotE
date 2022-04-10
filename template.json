@@ -1,0 +1,469 @@
+{
+  "Actor": {
+    "types": ["character"],
+    "templates": {
+      "base": {
+        "health": {
+          "value": 8,
+          "min": 0,
+          "max": 8
+        },
+        "mana": {
+          "value": 2,
+          "min": 0,
+          "max": 2
+        },
+        "actionPoints": {
+          "value": 4,
+          "min": 0,
+          "max": 4
+        },
+        "move": {
+          "value": 4,
+          "min": 0,
+          "max": 4
+        },
+        "sanity": {
+          "value": 8,
+          "min": 0,
+          "max": 8
+        },
+        "fortuneCards": {
+          "value": 1,
+          "min": 0,
+          "max": 1
+        },
+        "PD": {
+          "value": 500,
+          "min": 0,
+          "max": 500
+        },
+        "dmgNegation": {
+          "value": 0,
+          "min": 0,
+          "max": 0
+        },
+        "talentsLimit": {
+          "value": 0,
+          "min": 0,
+          "max": 70
+        }
+      }
+    },
+    "character": {
+      "templates": [ "base" ],
+      "biography": "",
+      "attributes": {
+        "level": {
+          "value": 1
+        }
+      },
+      "abilities": {
+        "Sila": {
+          "value": 1,
+          "bonus": 0
+        },
+        "Zrecznosc": {
+          "value": 1,
+          "bonus": 0
+        },
+        "Gibkosc": {
+          "value": 1,
+          "bonus": 0
+        },
+        "Wytrzymalosc": {
+          "value": 1,
+          "bonus": 0
+        },
+        "Rozum": {
+          "value": 1,
+          "bonus": 0
+        },
+        "Psychika": {
+          "value": 1,
+          "bonus": 0
+        },
+        "Zmysly": {
+          "value": 1,
+          "bonus": 0
+        }
+      },
+      "skills": {
+        "Drzewcowa": {
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 2,
+          "linkedAbiMod": 0
+        },
+        "Dwureczna": {
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 2,
+          "linkedAbiMod": 0
+        },
+        "Jednoreczna": {
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 2,
+          "linkedAbiMod": 0
+        },
+        "Lekka":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 2,
+          "linkedAbiMod": 0
+        },
+        "Miotana":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 2,
+          "linkedAbiMod": 0
+        },
+        "Strzelecka":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 2,
+          "linkedAbiMod": 0
+        },
+        "Uniki":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 3,
+          "linkedAbiMod": 0
+        },
+        "WalkaWrecz":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 2,
+          "linkedAbiMod": 0
+        },
+        "Antymagia":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 7,
+          "linkedAbiMod": 0
+        },
+        "BialaMagia":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 7,
+          "linkedAbiMod": 0
+        },
+        "Iluzje":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 7,
+          "linkedAbiMod": 0
+        },
+        "Kriomancja":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 7,
+          "linkedAbiMod": 0
+        },
+        "Nekromancja":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 7,
+          "linkedAbiMod": 0
+        },
+        "Piromancja":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 7,
+          "linkedAbiMod": 0
+        },
+        "Telekineza":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 7,
+          "linkedAbiMod": 0
+        },
+        "Transmutacja":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 7,
+          "linkedAbiMod": 0
+        },
+        "Wieszczenie":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 7,
+          "linkedAbiMod": 0
+        },
+        "Przetrwanie":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 7,
+          "linkedAbiMod": 0
+        },
+        "Tropienie":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 7,
+          "linkedAbiMod": 0
+        },
+        "Pulapki":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 5,
+          "linkedAbiMod": 0
+        },
+        "Akrobatyka":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 2,
+          "linkedAbiMod": 0
+        },
+        "Jezdziectwo":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 2,
+          "linkedAbiMod": 0
+        },
+        "Leczenie":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 2,
+          "linkedAbiMod": 0
+        },
+        "Nawigacja":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 5,
+          "linkedAbiMod": 0
+        },
+        "Plywanie":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 1,
+          "linkedAbiMod": 0
+        },
+        "Sledztwo":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 5,
+          "linkedAbiMod": 0
+        },
+        "Spostrzegawczosc":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 7,
+          "linkedAbiMod": 0
+        },
+        "Wspinaczka":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 1,
+          "linkedAbiMod": 0
+        },
+        "Zeglarstwo":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 2,
+          "linkedAbiMod": 0
+        },
+        "Blef":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 7,
+          "linkedAbiMod": 0
+        },
+        "Dowodzenie":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 7,
+          "linkedAbiMod": 0
+        },
+        "Etykieta":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 5,
+          "linkedAbiMod": 0
+        },
+        "Perswazja":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 7,
+          "linkedAbiMod": 0
+        },
+        "Wystepowanie":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 7,
+          "linkedAbiMod": 0
+        },
+        "Zastraszanie":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 7,
+          "linkedAbiMod": 0
+        },
+        "Falszerstwo":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 2,
+          "linkedAbiMod": 0
+        },
+        "Kradziez":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 2,
+          "linkedAbiMod": 0
+        },
+        "OtwieranieZamkow":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 2,
+          "linkedAbiMod": 0
+        },
+        "PrzebieranieSie":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 5,
+          "linkedAbiMod": 0
+        },
+        "UkrywanieSie":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 2,
+          "linkedAbiMod": 0
+        },
+        "Historia":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 5,
+          "linkedAbiMod": 0
+        },
+        "Inzynieria":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 5,
+          "linkedAbiMod": 0
+        },
+        "Lingwistyka":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 5,
+          "linkedAbiMod": 0
+        },
+        "Magia":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 5,
+          "linkedAbiMod": 0
+        },
+        "Okultyzm":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 5,
+          "linkedAbiMod": 0
+        },
+        "Prawo":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 5,
+          "linkedAbiMod": 0
+        },
+        "Medycyna":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 5,
+          "linkedAbiMod": 0
+        },
+        "Przyroda":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 5,
+          "linkedAbiMod": 0
+        },
+        "Taktyka":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 5,
+          "linkedAbiMod": 0
+        },
+        "Zaklinanie":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 5,
+          "linkedAbiMod": 0
+        },
+        "Alchemia":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 5,
+          "linkedAbiMod": 0
+        },
+        "Artyzm":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 7,
+          "linkedAbiMod": 0
+        },
+        "Gotowanie":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 5,
+          "linkedAbiMod": 0
+        },
+        "Kowalstwo":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 2,
+          "linkedAbiMod": 0
+        },
+        "Krawiectwo":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 2,
+          "linkedAbiMod": 0
+        },
+        "Kupiectwo":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 5,
+          "linkedAbiMod": 0
+        },
+        "Kusnierstwo":{
+          "value": 0,
+          "bonus": 0,
+          "linkedAbi": 2,
+          "linkedAbiMod": 0
+        }
+      }
+    }
+  },
+  "Item": {
+    "types": ["item", "talent", "macro", "spell"],
+    "templates": {
+      "base": {
+        "description": ""
+      }
+    },
+    "item": {
+      "templates": ["base"],
+      "quantity": 1,
+      "weight": 0,
+      "protection": 0,
+      "parryBonus": 0,
+      "attackBonus": 0,
+      "dmgDice": "2d6"
+    },
+    "talent": {
+      "templates": ["base"],
+      "cost": 0
+    },
+    "macro": {
+      "templates": ["base"],
+      "dice": "2d6",
+      "rollBonus": 0
+    },
+    "spell": {
+      "templates": ["base"],
+      "spellLevel": 1,
+      "manaCost": 1,
+      "pdCost": 0
+    }
+  }
+}
